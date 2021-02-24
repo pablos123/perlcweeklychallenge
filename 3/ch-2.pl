@@ -43,6 +43,6 @@ foreach my $rowiter (0 .. $rowsnumber) {
 foreach my $row (@pascaltriangle){
     foreach my $col (@$row){
         print $col; 
-        }
-        print "\n";
     }
+    print "\n";
+}
